@@ -1,0 +1,142 @@
+/**/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #f8fcff;
+  padding: 0.5rem 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #445463;
+  letter-spacing: 0.8px;
+  overflow: hidden;
+}
+
+#load{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8fcff;
+  z-index: 999;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+#openMenu + div {
+  margin-top: 1rem;
+}
+
+#city {
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 0.8rem;
+  margin-bottom: 6px;
+}
+
+#country {
+  font-weight: 500;
+  line-height: 0.8rem;
+  margin-bottom: 5px;
+}
+
+#date {
+  font-weight: 500;
+  font-size: 9px;
+  color: #8e9caa;
+}
+
+#today {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+#weatherToday {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#weatherToday #value {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: max-content;
+  max-width: 30%;
+}
+#weatherToday #value div{
+  position: relative;
+}
+#weatherToday #value h1 {
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 3.4rem;
+}
+#weatherToday #value #celsius {
+  position: absolute;
+  top: -1.15rem;
+  right: -1.7rem;
+  font-size: 1.7rem;
+  color: #8e9caa;
+}
+
+#weatherToday #value #desc {
+  font-size: 1.1rem;
+   text-align: center
+}
+
+#moreInfo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+#weatherDays {
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 2rem;
+}
+
+#weatherDays .day {
+  display: flex;
+  border: 1px solid #d2d9df;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 4rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+#weatherDays .day > p {
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  font-weight: 500;
+}
+
+#weatherDays .day #value {
+  font-size: 1.2rem;
+  margin-left: 3px;
+}
+
+#weatherDays .day + .day {
+  margin-left: 0.5rem;
+}

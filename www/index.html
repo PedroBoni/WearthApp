@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+        <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="load">
+        <lottie-player
+          src="https://assets9.lottiefiles.com/packages/lf20_EchaWV.json"
+          background="transparent"
+          speed="1"
+          style="width: 100%"
+          loop
+          autoplay
+          id="animation"
+        ></lottie-player>
+    </div>
+    <div>
+      <button id="openMenu">
+        <svg width="20" height="7">
+          <line
+            x1="0"
+            y1="0"
+            x2="20"
+            y2="0"
+            style="stroke: #445463; stroke-width: 4"
+          />
+          <line
+            x1="0"
+            y1="7"
+            x2="15"
+            y2="7"
+            style="stroke: #445463; stroke-width: 4"
+          />
+        </svg>
+      </button>
+      <div>
+        <p id="city"></p>
+        <!-- <p id="country">United Kingdom</p> -->
+        <p id="date"></p>
+      </div>
+    </div>
+    <h1 id="today">Hoje</h1>
+    <div id="weatherToday">
+     
+      <div id="value">
+        <div>
+          <h1></h1>
+          <span id="celsius">°C</span>
+        </div>
+        <span id="desc"></span>
+      </div>
+    </div>
+    <div id="moreInfo">
+      <div id="wind">
+        <lottie-player
+          src="components/wind.json"
+          background="transparent"
+          speed="1"
+          style="height: 5rem; max-width: 6rem"
+          loop
+          autoplay
+          id="animation"
+        ></lottie-player>
+        <p id="value"></p>
+      </div>
+      <div id="humidity">
+        <lottie-player
+          src="https://assets1.lottiefiles.com/packages/lf20_B5Myck.json"
+          background="transparent"
+          speed="1"
+          style="height: 5rem; max-width: 6rem"
+          loop
+          autoplay
+          id="animation"
+        ></lottie-player>
+        <p id="value"></p>
+      </div>
+    </div>
+    <div id="weatherDays">
+      
+      
+    </div>
+    <script src="components/index.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>

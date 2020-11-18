@@ -1,0 +1,249 @@
+{
+  "list": [
+    {
+      "condition": "Tempestade forte",
+      "day": "https://assets5.lottiefiles.com/private_files/lf30_kj3arjju.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_22gtsfnq.json"
+    },
+    {
+      "condition": "Tempestade tropical",
+      "day": "https://assets5.lottiefiles.com/private_files/lf30_kj3arjju.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_22gtsfnq.json"
+    },
+    {
+      "condition": "Furacão",
+      "day": "https://assets5.lottiefiles.com/private_files/lf30_kj3arjju.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_22gtsfnq.json"
+    },
+    {
+      "condition": "Tempestades severas",
+      "day": "https://assets5.lottiefiles.com/private_files/lf30_kj3arjju.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_22gtsfnq.json"
+    },
+    {
+      "condition": "Tempestades",
+      "day": "https://assets5.lottiefiles.com/private_files/lf30_kj3arjju.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_22gtsfnq.json"
+    },
+    {
+      "condition": "Misto de neve e chuva",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Misto chuva e gelo",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Misto neve e gelo",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Geada fina",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Chuviscos",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_rb778uhf.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_jr9yjlcf.json"
+    },
+    {
+      "condition": "Congelamento chuva",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_rb778uhf.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_jr9yjlcf.json"
+    },
+    {
+      "condition": "Alguns chuviscos",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_rb778uhf.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_jr9yjlcf.json"
+    },
+      {
+      "condition": "Alguns chuviscos",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_rb778uhf.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_jr9yjlcf.json"
+    },
+    {
+      "condition": "Neve baixa",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Tempestade com neve",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Ventania com neve",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Neve",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Granizo",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Gelo",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Poeira",
+      "day": "https://assets6.lottiefiles.com/private_files/lf30_moaf5wp5.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_iugenddu.json"
+    },
+    {
+      "condition": "Neblina",
+      "day": "https://assets2.lottiefiles.com/private_files/lf30_jvkyx6tg.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_qqhrsksk.json"
+    },
+    {
+      "condition": "Tempestade de areia",
+      "day": "https://assets2.lottiefiles.com/private_files/lf30_jvkyx6tg.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_qqhrsksk.json"
+    },
+    {
+      "condition": "Fumacento",
+      "day": "https://assets2.lottiefiles.com/private_files/lf30_jvkyx6tg.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_qqhrsksk.json"
+    },
+    {
+      "condition": "Vento acentuado",
+      "day": "https://assets2.lottiefiles.com/private_files/lf30_jvkyx6tg.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_qqhrsksk.json"
+    },
+    {
+      "condition": "Ventania",
+      "day": "https://assets2.lottiefiles.com/private_files/lf30_jvkyx6tg.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_qqhrsksk.json"
+    },
+    {
+      "condition": "Tempo frio",
+      "day": "https://assets7.lottiefiles.com/private_files/lf30_ykkzuozu.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_5tzqguri.json"
+    },
+    {
+      "condition": "Tempo nublado",
+      "day": "https://assets7.lottiefiles.com/private_files/lf30_ykkzuozu.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_5tzqguri.json"
+    },
+    {
+      "condition": "Tempo limpo",
+      "day": "https://assets4.lottiefiles.com/private_files/lf30_moaf5wp5.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_iugenddu.json"
+    },
+    {
+      "condition": "Tempo nublado",
+      "day": "https://assets7.lottiefiles.com/private_files/lf30_ykkzuozu.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_5tzqguri.json"
+    },
+    {
+      "condition": "Parcialmente nublado",
+      "day": "https://assets2.lottiefiles.com/private_files/lf30_j1g2rpsv.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_sgiztka9.json"
+    },
+    {
+      "condition": "Parcialmente nublado",
+     "day": "https://assets2.lottiefiles.com/private_files/lf30_j1g2rpsv.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_sgiztka9.json"
+    },
+    {
+      "condition": "Tempo limpo",
+      "day": "https://assets4.lottiefiles.com/private_files/lf30_moaf5wp5.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_iugenddu.json"
+    },
+    {
+      "condition": "Ensolarado",
+      "day": "https://assets4.lottiefiles.com/private_files/lf30_moaf5wp5.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_iugenddu.json"
+    },
+    {
+      "condition": "Estrelado",
+      "day": "https://assets2.lottiefiles.com/private_files/lf30_iugenddu.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_iugenddu.json"
+    },
+    {
+      "condition": "Ensolarado com muitas nuvens",
+       "day": "https://assets7.lottiefiles.com/private_files/lf30_ykkzuozu.json",
+      "night": "https://assets7.lottiefiles.com/private_files/lf30_ykkzuozu.json"
+    },
+    {
+      "condition": "Misto chuva e granizo",
+      "day": "https://assets5.lottiefiles.com/private_files/lf30_kj3arjju.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_22gtsfnq.json"
+    },
+    {
+      "condition": "Ar quente",
+       "day": "https://assets4.lottiefiles.com/private_files/lf30_moaf5wp5.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_iugenddu.json"
+    },
+    {
+      "condition": "Tempestades isoladas",
+      "day": "https://assets2.lottiefiles.com/private_files/lf30_oj6pxozf.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_3udf8lcw.json"
+    },
+    {
+      "condition": "Trovoadas dispersas",
+      "day": "https://assets2.lottiefiles.com/private_files/lf30_oj6pxozf.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_3udf8lcw.json"
+    },
+    {
+      "condition": "Trovoadas dispersas",
+      "day": "https://assets2.lottiefiles.com/private_files/lf30_oj6pxozf.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_3udf8lcw.json"
+    },
+    {
+      "condition": "Chuvas esparsas",
+       "day": "https://assets2.lottiefiles.com/private_files/lf30_oj6pxozf.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_3udf8lcw.json"
+    },
+    {
+      "condition": "Pesados neve",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Chuviscos com neve",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Neve pesada",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Sol com poucas nuvens",
+       "day": "https://assets2.lottiefiles.com/private_files/lf30_j1g2rpsv.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_j1g2rpsv.json"
+    },
+    {
+      "condition": "Chuva",
+      "day": "https://assets2.lottiefiles.com/private_files/lf30_oj6pxozf.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_3udf8lcw.json"
+    },
+    {
+      "condition": "Queda de neve",
+      "day": "https://assets3.lottiefiles.com/private_files/lf30_w5u9xr3a.json",
+      "night": "https://assets3.lottiefiles.com/private_files/lf30_9bptg8sh.json"
+    },
+    {
+      "condition": "Tempestades isoladas",
+      "day": "https://assets2.lottiefiles.com/private_files/lf30_oj6pxozf.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_3udf8lcw.jso"
+    },
+    {
+      "condition": "Serviço não disponível",
+      "day": "https://assets4.lottiefiles.com/private_files/lf30_moaf5wp5.json",
+      "night": "https://assets2.lottiefiles.com/private_files/lf30_iugenddu.json"
+    }
+  ]
+}
