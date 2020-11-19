@@ -5,7 +5,7 @@
     width="250"
   />
 </p>
-<p align="center">
+<!-- <p align="center">
  <a href="https://monacac.page.link/1NvXP8oRPVa4Nneh7">
     <img 
       src="https://user-images.githubusercontent.com/50744385/91609969-c7618780-e94e-11ea-8a5e-ca4b7a88a466.png" 
@@ -19,10 +19,7 @@
     height="25"
    />
 </p>
- 
-
 <p align="center">This app was made based on the activity proposal in the ETEC mobile apps class</p>
-
 <p align="center">
   <img 
     src="https://user-images.githubusercontent.com/50744385/91612386-b109fa80-e953-11ea-83da-600aaa296f7e.png" 
@@ -44,6 +41,5 @@
     alt="Tela 4 - App Taxa Metabolismo Basal" 
     height="400"
  />
-
 </p>
- 
+ -->
