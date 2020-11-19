@@ -52,10 +52,14 @@ document.addEventListener("deviceready", () => {
           city.innerText = json.results.city;
           date.innerText = formatDate(json.results.date, 1);
           desc.innerText = conditionData[json.results.condition_code].condition;
+
+          let animationJson = time(json.results.time, json.results.sunrise, json.results.sunset) == 1 ? conditionData[json.results.condition_code].day : conditionData[json.results.condition_code].night;
+          
+
           if (!weatherTodayAnimation)
-            weatherToday.insertAdjacentHTML('afterbegin', insertAnimation(conditionData[json.results.condition_code].day))
+            weatherToday.insertAdjacentHTML('afterbegin', insertAnimation(animationJson))
           else
-            weatherTodayAnimation.src = conditionData[json.results.condition_code].day;
+            weatherTodayAnimation.src = animationJson;
 
 
           windValue.innerText = json.results.wind_speedy;
@@ -138,5 +142,30 @@ function getCodition(condition){
       }
       return res;
     }
+  }
+}
+
+function time(now, sunrise, sunset){
+  let twoPointsSunrise = sunrise.indexOf(":");
+  let twoPointsSunset = sunset.indexOf(":");
+  let twoPointsNow = now.indexOf(":");
+  
+  let sunriseHour = parseInt(sunrise.substring(0, twoPointsSunrise))
+  let sunriseMinutes = parseInt(sunrise.substring(twoPointsSunrise+1, twoPointsSunrise+3))
+
+  let sunsetHour = parseInt(sunset.substring(0, twoPointsSunset)) + 12
+  let sunsetMinutes = parseInt(sunset.substring(twoPointsSunset+1, twoPointsSunset+3))
+
+  let nowHour = parseInt(now.substring(0, twoPointsNow));
+  
+  let nowMinutes = parseInt(now.substring(twoPointsNow+1, twoPointsNow+3))
+
+console.log("agr: " + nowHour + ":" + nowMinutes + " | " + "sunrise: " + sunriseHour + ":" + sunriseMinutes + " | " + "sunset: " + sunsetHour + ":" + sunsetMinutes)
+  if(((nowHour == sunriseHour && nowMinutes >= sunriseMinutes) || nowHour > sunriseHour) && ((nowHour == sunsetHour && nowMinutes < sunsetMinutes) || nowHour < sunsetHour)){
+    console.log("day")
+    return 1;
+  }else{
+    console.log("night")
+    return 2;
   }
 }
